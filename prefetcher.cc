@@ -21,7 +21,7 @@ void prefetch_access(AccessStat stat)
     int delta = 10*BLOCK_SIZE;
     Addr pf_addr = stat.mem_addr + delta;
     //Addr pf_addr1 = stat.mem_addr + 2*BLOCK_SIZE;
-
+ //halal Gud
     /*
      * Issue a prefetch request if a demand miss occured,
      * and the block is not already in cache.
